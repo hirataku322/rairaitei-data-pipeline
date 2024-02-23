@@ -21,4 +21,4 @@ for store in stores:
     prefectures.append(prefecture)
 
 df = pd.DataFrame({'name': names, 'address': addresses, 'prefectures': prefectures})
-print(df)
+df.to_csv('rairaitei.csv', index=False, encoding='utf-8')
