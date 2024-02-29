@@ -1,3 +1,5 @@
 *.csv
 logs
+plugins
+config
 airflow*
